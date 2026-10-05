@@ -1,5 +1,21 @@
 # @vinext/cloudflare
 
+## 1.1.0
+
+### Features
+
+- **Cloudflare:** soft-invalidate Workers Cache for stale-while-revalidate invalidations (#3707)
+
+### Bug Fixes
+
+- **Cloudflare:** store the other entries a Response Store page replay recomputes (#3704)
+- **Response Store:** let writers opt hard-expired reads into a miss (#3696)
+- **Cloudflare:** store Response Store data entries without expire as stale indefinitely (#3675)
+
+### Contributors
+
+- @james-elicx
+
 ## 1.0.1
 
 ### Bug Fixes

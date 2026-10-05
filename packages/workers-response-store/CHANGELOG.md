@@ -1,5 +1,19 @@
 # @cloudflare/workers-response-store
 
+## 1.1.0
+
+### Features
+
+- **Cloudflare:** soft-invalidate Workers Cache for stale-while-revalidate invalidations (#3707)
+
+### Bug Fixes
+
+- **Response Store:** let writers opt hard-expired reads into a miss (#3696)
+
+### Contributors
+
+- @james-elicx
+
 ## 1.0.1
 
 ### Bug Fixes

@@ -1,5 +1,18 @@
 # vinext
 
+## 1.0.2
+
+### Bug Fixes
+
+- **App Router:** leave streamed generated metadata out of loading-shell prefetches (#3705)
+- **Use Cache:** regenerate entries past their expire instead of serving them (#3703)
+- **Cjs:** drop the CommonJS export facade from ESM like Next.js (#3667)
+- **App Router:** share React cache() between generateMetadata and the page render (#3660)
+
+### Contributors
+
+- @james-elicx
+
 ## 1.0.1
 
 ### Bug Fixes
